@@ -21,13 +21,13 @@ body {
 }
 
 .img-flex {
-  display: block;
+  display: flex;
   width: 100%;
-  position: relative;
 }
 
 figure {
   margin: 0;
+  position: relative;
 }
 
 figcaption {
@@ -35,4 +35,14 @@ figcaption {
   position: absolute;
   left: 0.5rem;
   bottom: 0.5rem;
+  color: white;
+  background-color: black;
+  opacity: 50%;
+  border-radius: 1rem;
+  max-width: 15em;
+}
+
+body {
+  line-height: 1.3;
+  font-family: 'Roboto Slab', serif;
 }
